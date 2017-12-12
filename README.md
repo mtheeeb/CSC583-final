@@ -88,3 +88,17 @@ Average    | 2.4    | 3.5           | 3.6    | 3.4   | 3.2
  
 
 ## Plan of action
+- [x] Nonfunctional analysis
+
+- [x] Functional analysis
+
+- [x] Architecture design
+
+- [x] Coding
+
+- [x] Test deployment
+
+- [x] Deployment
+
+- [x] Sign-in
+
