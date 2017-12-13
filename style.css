@@ -40,39 +40,34 @@ button {
 .main-wrapper{
 	margin: 0 auto;
 	width: 1000px;
-	  text-align:center;
+	
 }
 .signup-form {
-	width: 400px;
+	width: 450px;
 	margin: 0 auto;
-	padding-top: 30px;
-	  text-align:center;
+	padding-top: 10px;
+	
 }
 .signup-form input{
 	width:90%;
-	height: 40px;
+	height: 30px;
 	padding: 0px 5%;
-	margin-bottom: 4px;
-	border: none;
-	background-color: #fff;
-	font-family: arial;
-	font-size: 16px;
-	color:#111;
-	line-height: 40px; 
+	
+	
 
 }
 .signup-form button{
-	  text-align:center;
+	  
 	display: block;
 	margin: 0 auto;
 	width:30%;
-	height: 40px;
 	border: none;
 	background-color: #222;
 	font-family: arial;
 	font-size: 16px;
 	color:#fff;
 cursor:pointer;
+
 }
 .signup-form button:hover{
 

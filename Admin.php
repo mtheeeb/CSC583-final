@@ -9,7 +9,9 @@ table, th, td {
 </style>
 </head>
 <body>
-<img align="center" src="https://upload.wikimedia.org/wikipedia/en/0/09/CSUDH_Seal.jpg"  style="width:350px;height:350px; ">
+<br><br>
+<center>
+<img  src="https://upload.wikimedia.org/wikipedia/en/0/09/CSUDH_Seal.jpg"  style="width:350px;height:350px; ">
 
 <?php
 $servername = "localhost";

@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
-<img align="center" src="https://upload.wikimedia.org/wikipedia/en/0/09/CSUDH_Seal.jpg"  style="width:350px;height:350px; ">
+<br><br>
+<center>
+<img src="https://upload.wikimedia.org/wikipedia/en/0/09/CSUDH_Seal.jpg"  style="width:350px;height:350px; ">
+</center>
+
     <body>
         <?php
 		$dbServername = "localhost";
@@ -78,7 +82,7 @@
 ?>
 
 
-		<form action="http://localhost/sgin-in"  method="POST">
+		<form action="http://localhost/sgin-in.php"  method="POST">
         
 		<link rel="stylesheet" type="text/css" href="style.css">
   <div  class="container">
@@ -87,7 +91,7 @@
 
 
 		<nav>
-			<div  class ="main-wrapper">
+			<div>
 			
 					<div class ="signup-form">
 		
@@ -135,7 +139,7 @@
 		<br/>
 		 <div class="clearfix">
        
-		<button  type="submit" class="signupbtn" Formaction="http://localhost/sgin-in"  >Submit</button>
+		<button  type="submit" class="signupbtn" Formaction="http://localhost/sgin-in.php"  >Submit</button>
 		 </div>
 		 </div>
   </div>
