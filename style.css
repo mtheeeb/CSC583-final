@@ -1,0 +1,81 @@
+ /* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+     .signupbtn {
+        width: 100%;
+    }
+} 
+.main-wrapper{
+	margin: 0 auto;
+	width: 1000px;
+	  text-align:center;
+}
+.signup-form {
+	width: 400px;
+	margin: 0 auto;
+	padding-top: 30px;
+	  text-align:center;
+}
+.signup-form input{
+	width:90%;
+	height: 40px;
+	padding: 0px 5%;
+	margin-bottom: 4px;
+	border: none;
+	background-color: #fff;
+	font-family: arial;
+	font-size: 16px;
+	color:#111;
+	line-height: 40px; 
+
+}
+.signup-form button{
+	  text-align:center;
+	display: block;
+	margin: 0 auto;
+	width:30%;
+	height: 40px;
+	border: none;
+	background-color: #222;
+	font-family: arial;
+	font-size: 16px;
+	color:#fff;
+cursor:pointer;
+}
+.signup-form button:hover{
+
+	background-color: #111;
+	
+}
